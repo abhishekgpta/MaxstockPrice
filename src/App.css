@@ -1,5 +1,6 @@
-.App {
-  text-align: center;
+.main__container-flex {
+  /* text-align: center; */
+  display: flex;
 }
 
 .App-logo {
@@ -19,4 +20,35 @@
 
 .App-link {
   color: #09d3ac;
+}
+.card__container{
+  height: 90vh;
+  border: 1px solid black;
+}
+.card__container--blur{
+  opacity: 0.1;
+}
+.calender__container--block{
+  flex-grow: 2;
+  flex-basis: 25%;
+}
+.leftpanel__range{
+  margin-top: 3px;
+  border: 1px solid black;
+  padding:5px;
+}
+.leftpanel__range--block{
+  flex-grow: 1;
+  flex-basis: 25%;
+}
+.leftpanel__range__maxProfit--block{
+  margin-bottom: 3px;
+  border: 1px solid black;
+}
+.leftpanel__range__chart--block{
+  /* margin-bottom: 3px; */
+  border: 1px solid black;
+}
+.calender__container--highlight{
+  background-color: antiquewhite;
 }
